@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:required{
+            background-color: aqua;
+        }
+        input[type="text"]:optional{
+            background-color: blue;
+        }
+        input:valid{
+            background-color: green;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <input type="text" name="fullname" required placeholder="fullname"><br>
+        <input type="text" name="father" placeholder="enter father name"><br>
+        <input type="text" name="age" required placeholder="enter age"><br>
+    </form>
+</body>
+</html>
